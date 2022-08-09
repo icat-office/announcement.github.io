@@ -28,12 +28,12 @@
  温馨提示 ：过期作废(发布后七天内可由群成员让群管理员改进)❗ 请务必看重！请务必看重‼ 
 <script>
 var myDate = new Date();
-y = myDate.getFullYear();
-m = myDate.getMonth()+1;
-m2 = myDate.getMonth()+2;
+var y = myDate.getFullYear();
+var m = myDate.getMonth();
+var m2 = myDate.getMonth();
 
-s = y+"."+m+".01";
-e = y+"."+m2+".01";
+var s = y+"."+m+".01";
+var e = y+"."+m2+".01";
 
 document.getElementById("start").innerHTML=s;
 document.getElementById("end").innerHTML=e;
